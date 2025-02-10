@@ -7,6 +7,10 @@
 
 An intelligent crypto news analysis system powered by RAG (Retrieval Augmented Generation) that automatically scrapes, processes, and analyzes cryptocurrency news to provide real-time insights and answers to your questions! 🚀
 
+https://github.com/user-attachments/assets/75ca4461-3d0a-4967-b556-ed78fce1cab2
+
+
+
 ## ✨ Features
 
 - 🔄 **Real-time News Scraping**: Automatically scrapes crypto news from TradingView
@@ -84,16 +88,6 @@ streamlit run src/app.py
 
 2. Wait for the initial news scraping and indexing
 3. Start asking questions about crypto news and trends!
-
-
-
-## 📹 Demo
-
-Watch crypto news assistant in action as it analyzes crypto trends and provides insightful answers!
-
-
-
-https://github.com/user-attachments/assets/75ca4461-3d0a-4967-b556-ed78fce1cab2
 
 
 ## 📁 Project Structure
