@@ -57,7 +57,7 @@ if user_input:
     # Initialize RAG system if it's the first query
     if not st.session_state.initialized:
         with st.spinner("Initializing the assistant..."):
-            st.session_state.rag_system = initialize_app(df)
+            st.session_state.rag_system = initialize_app()
             st.session_state.initialized = True
             time.sleep(2)
 
