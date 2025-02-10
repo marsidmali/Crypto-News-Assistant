@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 4. Set up environment variables:
-   - Copy `config.example.json` to `config.json`
+   - Creat `config.json` (see Configuration example)
    - Add your API keys and configuration
 
 ## 🤖 Model Setup
@@ -100,9 +100,12 @@ The app uses the following RAG (Retrieval Augmented Generation) architecture:
 
 ## 📹 Demo
 
-[Insert demo video here]
-
 Watch crypto news assistant in action as it analyzes crypto trends and provides insightful answers!
+
+
+
+https://github.com/user-attachments/assets/75ca4461-3d0a-4967-b556-ed78fce1cab2
+
 
 ## 📁 Project Structure
 
@@ -125,7 +128,7 @@ crypto-news-assistant/
 Example `config.json`:
 ```json
 {
-    "model_type": "openai",  // or "ollama"
+    "model_type": "openai or ollama"
     "openai_api_key": "",
     "openai_model": "gpt-4o-mini",
     "ollama_model": "deepseek-r1:32b",
