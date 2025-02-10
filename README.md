@@ -7,8 +7,9 @@
 
 An intelligent crypto news analysis system powered by RAG (Retrieval Augmented Generation) that automatically scrapes, processes, and analyzes cryptocurrency news to provide real-time insights and answers to your questions! 🚀
 
-https://github.com/user-attachments/assets/75ca4461-3d0a-4967-b556-ed78fce1cab2
-
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/85c6ec22-aa28-423c-8b7e-be3dfbda0b84" alt="demo" width="100%">
+</p>
 
 
 ## ✨ Features
