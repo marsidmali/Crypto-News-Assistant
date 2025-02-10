@@ -119,9 +119,8 @@ crypto-news-assistant/
 ├── src/                 # Source code
 │   ├── app.py          # Streamlit application
 │   ├── scraper.py      # TradingView scraping logic
-│   ├── rag.py          # RAG system implementation
-│   └── utils/          # Utility functions
-│
+│   └── rag.py          # RAG system implementation
+│   
 ├── config.json         # Configuration file
 ├── requirements.txt    # Dependencies
 └── README.md          # Documentation
