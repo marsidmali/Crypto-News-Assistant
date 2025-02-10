@@ -89,6 +89,27 @@ streamlit run src/app.py
 2. Wait for the initial news scraping and indexing
 3. Start asking questions about crypto news and trends!
 
+## 🏗️ RAG Architecture
+
+The app uses the following RAG (Retrieval Augmented Generation) architecture:
+
+1. **Data Ingestion**:
+   - Scrapes crypto news from TradingView
+   - Processes and chunks articles for optimal retrieval
+
+2. **Hybrid Retrieval**:
+   - Vector Search (FAISS) with MiniLM embeddings
+   - Keyword Search (BM25)
+   - Weighted ensemble combination
+
+3. **Smart Reranking**:
+   - Cohere Rerank for context-aware result selection
+   - Top-N filtering for most relevant context
+
+4. **Response Generation**:
+   - Context-aware prompt engineering
+   - Flexible model support (OpenAI/Ollama)
+   - Streaming response generation
 
 ## 📁 Project Structure
 
